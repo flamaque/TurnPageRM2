@@ -38,7 +38,7 @@ ssh to the device
 
 paste the following code
 ```
-wget https://raw.githubusercontent.com/flamaque/TurnPageRM2/main/install.sh?token=GHSAT0AAAAAACBIVPTZG5T3MVX7GG7ZLL5IZBVOUNQ -O- |sh
+wget https://raw.githubusercontent.com/flamaque/TurnPageRM2/main/install.sh -O- |sh
 ```
 
 ### Manual
