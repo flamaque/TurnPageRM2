@@ -7,7 +7,7 @@
 #include "keyinjector.h"
 
 
-bool verbose = false;
+bool verbose = true;
 int main() {
     printf("touchinjector %s\n",VERSION);
     //todo: option parsing
@@ -17,6 +17,10 @@ int main() {
 	ui_init();
 
     process_touch(&recognize_gestures);
-   
+   while(1){
+    delay(2000);
+    SwipePage();
+    delay(2000);
+   }
     return 0;
 }
